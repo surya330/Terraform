@@ -7,4 +7,4 @@ s repo contains questions and exercises on various technical topics, sometimes r
 
 🛑  If you are interested in pursuing a career as DevOps engineer, learning some of the concepts mentioned here would be useful, but you should know it's not about learning all the topics and technologies mentioned in this repository
 
-📝  You can add more exercises by submitting pull requests :) Read about contribution guidelines here
+📝  You can add more exercises by submitting pull requests :) Read about contribution guidelines [here](https://linktr.ee/admin)
