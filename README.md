@@ -27,7 +27,7 @@ that multiple people can access and work on it.
   
 **terraform untaint <resource_type.name>:** Untaint the already tainted resource.
   
-#terraform state:
+**terraform state:**
   
 **terraform state list:** It'll display all the resources in the current state file.
   
