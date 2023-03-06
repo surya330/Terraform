@@ -26,9 +26,7 @@ that multiple people can access and work on it.
 **terraform taint <resource_type.name>:** It informs terraform that this resource is damaged or degraded and marks it as tainted, so that It'll get replaced whenever the next apply command is executed.
   
 **terraform untaint <resource_type.name>:** Untaint the already tainted resource.
-  
-**terraform state:**
-  
+
 **terraform state list:** It'll display all the resources in the current state file.
   
 **terraform state push:** It'll update terraform state file from local to remote.
