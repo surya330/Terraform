@@ -68,8 +68,8 @@ variable "<Variable_name>"{
 <details>
 <summary>4. What is terraform.tfvars and variable.tf files ?</summary>
 <br>
-**variable.tf:** This file contains the variable definitions with optional default values and type of varibale for your confiuration file.
-**terraform.tfvars:** This file is used to assign values to the variables. We can have multiple .tfvars files (Eg.terraform-one.tfvars, terraform-two.tfvars, terraform-three.tfvars). We can pass variables from tfvars files via command line argumenst using --var-file flag as shown below:
+__variable.tf:__ This file contains the variable definitions with optional default values and type of varibale for your confiuration file.
+__terraform.tfvars:__ This file is used to assign values to the variables. We can have multiple .tfvars files (Eg.terraform-one.tfvars, terraform-two.tfvars, terraform-three.tfvars). We can pass variables from tfvars files via command line argumenst using --var-file flag as shown below:
   
 1. terraform init for one
 terraform init --var-file="terraform-one.tfvars"
