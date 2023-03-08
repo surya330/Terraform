@@ -64,7 +64,7 @@ variable "<Variable_name>"{
   default = "default value"
 }
 </details>
-  
+  **variable.tf:**
 <details>
 <summary>4. What is terraform.tfvars and variable.tf files ?</summary>
 <br>
