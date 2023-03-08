@@ -119,7 +119,7 @@ output "<Your_output_varibale_name>"{
 <details>
 <summary>7. How to display mutiple output values to console ?</summary>
 <br>
-Using Map Function- You can also output multiple values in a single output block by using the map function.
+**Using Map Function-** You can also output multiple values in a single output block by using the map function.
 
 output "<Your_output_varibale_name>" {
   value = {
@@ -128,7 +128,7 @@ output "<Your_output_varibale_name>" {
   }
 } 
 
-Using join function- You can also output multiple attributes from a resource using join function
+**Using join function-** You can also output multiple attributes from a resource using join function
 
 output "<Your_output_varibale_name>" {
   value = join(",",[resource1.name,resource1.location])
