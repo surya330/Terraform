@@ -97,3 +97,23 @@ __Synatx with expression:__
     my_local = "${var.virtual_machine_name}"
   }
 </details>
+
+<details>
+<summary>6. What are terraform output values ?</summary>
+<br>
+Terraform output values can help you to print the attributes reference on your console. With terraform output values you can debug your code easily.
+  
+__Syntax for output values:__
+output "<Your_output_varibale_name>"{
+  value = "This will display on your console"
+  }
+
+When you run terraform apply command, it is going to print This will display on your console. If there is some sensitive information like password, secrets that should not be displayed on the console then you can use sensitive attribute as shown below.
+
+output "<Your_output_varibale_name>"{
+  value = "This will display on your console"
+  sensitive=true
+  }
+
+
+</details>
