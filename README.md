@@ -71,13 +71,13 @@ variable "<Variable_name>"{
 __variable.tf:__ This file contains the variable definitions with optional default values and type of varibale for your confiuration file.
 __terraform.tfvars:__ This file is used to assign values to the variables. We can have multiple .tfvars files (Eg.terraform-one.tfvars, terraform-two.tfvars, terraform-three.tfvars). We can pass variables from tfvars files via command line argumenst using --var-file flag as shown below:
   
-1. terraform init for one
+1. terraform init for one:
 terraform init --var-file="terraform-one.tfvars"
   
-2. terraform plan for one 
+2. terraform plan for one: 
 terraform plan --var-file="terraform-one.tfvars"
 
-3. terraform apply for one
+3. terraform apply for one:
 terraform apply --var-file="terraform-one.tfvars"
 </details>
 
@@ -85,6 +85,7 @@ terraform apply --var-file="terraform-one.tfvars"
 <summary>5. What are terraform locals ?</summary>
 <br>
 Terraform Locals are only accessible within that functions or within the scope of terraform file. Terraform Locals are only accessible within that functions or within the scope of terraform file. It can reduce the work of updating your terraform configuration at multiple places. With terraform locals you need to update its value once and it should reflect all over the place where it is referred.
+  
   
 **Syntax wihtout expression:**
  locals {
