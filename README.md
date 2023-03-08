@@ -68,6 +68,6 @@ variable "<Variable_name>"{
 <details>
 <summary>4. What is terraform.tfvars and variable.tf files ?</summary>
 <br>
-*variable.tf:* This file contains the variable definitions with optional default values and type of varibale for your confiuration file.
+**variable.tf:** This file contains the variable definitions with optional default values and type of varibale for your confiuration file.
 **terraform.tfvars:** This file is used to assign values to the variables. We can have multiple .tfvars files.
 </details>
