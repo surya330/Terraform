@@ -1,5 +1,7 @@
 # Terraform Commands
 
+These are top 20 commands which everyone should know who are wokring with terraform.
+
 **terraform -help:** It'll list all the available execution commands. It shows primary workflow commands first and less commonly used commands second.
 
 **terraform version:** It'll give the version of current terraform you're using and let you know whether there is any latest version/update of terraform is avaiable or not.
@@ -42,7 +44,7 @@ that multiple people can access and work on it.
 # Terraform Q&A #
 
 <details>
-<summary>What are terraform variables ?</summary>
+<summary>1.What are terraform variables ?</summary>
 <br>
 Terraform variables are used to store the values which can be used throughout the configuration file.
 </details>
