@@ -38,3 +38,11 @@ that multiple people can access and work on it.
 **terraform console:** It'll be useful for testing on the interactive console rusing command line.
   
 **terraform providers:** It'll provide the list of providers that are required.
+
+#Terraform Q&A
+
+<details>
+<summary>What are terraform variables ?</summary>
+<br>
+Terraform variables are used to store the values which can be used throughout the configuration file.
+</details>
