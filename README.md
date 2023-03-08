@@ -80,3 +80,19 @@ terraform plan --var-file="terraform-one.tfvars"
 3. terraform apply for one
 terraform apply --var-file="terraform-one.tfvars"
 </details>
+
+<details>
+<summary>5. What are terraform locals ?</summary>
+<br>
+Terraform Locals are only accessible within that functions or within the scope of terraform file. Terraform Locals are only accessible within that functions or within the scope of terraform file. It can reduce the work of updating your terraform configuration at multiple places. With terraform locals you need to update its value once and it should reflect all over the place where it is referred.
+  
+**Syntax wihtout expression:**
+ locals {
+  prod_env = "production"
+}
+  
+__Synatx with expression:__
+  locals{
+    my_local = "${var.virtual_machine_name}"
+  }
+</details>
