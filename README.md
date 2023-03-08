@@ -119,7 +119,7 @@ output "<Your_output_varibale_name>"{
 <details>
 <summary>7. How to display mutiple output values to console ?</summary>
 <br>
-**Using map function-** You can also output multiple values in a single output block by using the map function.
+__Using map function-__ You can also output multiple values in a single output block by using the map function.
 
 output "<Your_output_varibale_name>" {
   value = {
