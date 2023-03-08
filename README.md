@@ -44,7 +44,30 @@ that multiple people can access and work on it.
 # Terraform Q&A #
 
 <details>
-<summary>1.What are terraform variables ?</summary>
+<summary>1. What are terraform variables ?</summary>
 <br>
 Terraform variables are used to store the values which can be used throughout the configuration file.
+</details>
+
+<details>
+<summary>2. What are the various types of variables ?</summary>
+<br>
+Types of variables - String, Number, Boolean, List, Map, Sets.
+</details>
+
+<details>
+<summary>3. Syntax for variable declartion.</summary>
+<br>
+variable "<Variable_name>"{
+  type = <type_of_your_variable> ==> Eg. string,boolean,number,e.t.c.
+  description = "Meaning full description"
+  default = "default value"
+}
+</details>
+  
+<details>
+<summary>4. What is terraform.tfvars and variable.tf files ?</summary>
+<br>
+### variable.tf: ###This file contains the variable definitions with optional default values and type of varibale for your confiuration file.
+### terraform.tfvars: ###This file is used to assign values to the variables. We can have multiple .tfvars files.
 </details>
