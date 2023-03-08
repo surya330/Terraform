@@ -121,7 +121,7 @@ output "<Your_output_varibale_name>"{
 <br>
 Using Map Function- You can also output multiple values in a single output block by using the map function.
 
-output "instance_ips" {
+output "<Your_output_varibale_name>" {
   value = {
     value1 = output1,
     value2 = output2
@@ -130,7 +130,7 @@ output "instance_ips" {
 
 Using join function- You can also output multiple attributes from a resource using join function
 
-output "security_groups" {
+output "<Your_output_varibale_name>" {
   value = join(",",[resource1.name,resource1.location])
 } 
 </details>
